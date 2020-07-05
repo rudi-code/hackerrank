@@ -1,4 +1,4 @@
-package com.hackerrank.task;
+package com.hackerrank.mandala.answer;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,33 +7,35 @@ import java.util.List;
 import java.util.Map;
 
 public class CountGForMontain {
-	static List<String> listS = new ArrayList<String>();
-	public static void main(String[] args) {
-		
-		String[][] arr = {
-		{"G", "G", "L"},
-		{"G", "L", "L"},
-		{"L", "L", "G"}
-		};
-		
-//		String[][] arr = {
-//				{"L", "L", "L", "G"},  
-//				{"L", "G", "G", "L"},
-//				{"L", "G", "L", "L"},
-//				{"G", "L", "L", "G"},
-//				};
-		
-//		String[][] arr = {
-//				{"L", "G", "L", "G"},
-//				{"G", "G", "G", "L"},
-//				{"L", "G", "G", "L"},
-//				{"G", "G", "G", "G"},
-//				};
-		
-		int gunung = countGunung(createArray(arr), arr.length);
-		System.out.println("hasilnya ada "+gunung+" pegunungan" );
-	}
 	
+	static List<String> listS = new ArrayList<String>();
+	
+//	public static void main(String[] args) {
+//		
+//		String[][] arr = {
+//		{"G", "G", "L"},
+//		{"G", "L", "L"},
+//		{"L", "L", "G"}
+//		};
+//		
+////		String[][] arr = {
+////				{"L", "L", "L", "G"},  
+////				{"L", "G", "G", "L"},
+////				{"L", "G", "L", "L"},
+////				{"G", "L", "L", "G"},
+////				};
+//		
+////		String[][] arr = {
+////				{"L", "G", "L", "G"},
+////				{"G", "G", "G", "L"},
+////				{"L", "G", "G", "L"},
+////				{"G", "G", "G", "G"},
+////				};
+//		
+//		int gunung = countGunung(createArray(arr), arr.length);
+//		System.out.println("hasilnya ada "+gunung+" pegunungan" );
+//	}
+//	
 	private static String[][] createArray(String[][] arr){
 		
 		// get length array 2 dimensi
